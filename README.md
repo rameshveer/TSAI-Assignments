@@ -13,7 +13,7 @@
     Weights are initialized randomly. The distribution of weights is usually done in a normalized way, between 0 and 1. If not restricted between 0 and 1, there is a possibility that some weights may be initialized with very high values and appear to be contributing majorly in the specific layers output. So during backpropagation, since the changes to weights take place in really small increments, it will take a longer time to correct the effect of these highly initialized weights and correctly give values to the correct weights. 
 
 - ##### What is "loss" in a neural network?
-    The difference between the expected output and actual output is called loss. We use a loss function to describe the loss, based on our use case. For example 0ne common way of defining loss for numeric output is mean square loss. 
+    The difference between the expected output and actual output is called loss. We use a loss function to describe the loss, based on our use case. For example one common way of defining loss for numeric output is mean square loss. 
 
 - ##### What is the "chain rule" in gradient flow?
     When adjusting the weights of a neural network, we need to consider the effect not only of the incoming inputs but also the effect of changing the weights of layers before that all the way to the beginning. Which means that we need to individually calculate the effect of change of weight with respect to the output for all weights and then combine them together to find the net effect of change of all the weights. This is done by taking partial derivates of error with respect to the individual weights. 
