@@ -1,5 +1,10 @@
 # Session 1 
 
+## These assignments are done by 4 members,
+1. Pratik gole
+2. Bharat
+3. Sujay
+4. Ramesh V
 
 ## Questions and Answers
 
